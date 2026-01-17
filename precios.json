@@ -1,0 +1,20 @@
+{
+  "base": 35,
+  "altura": {
+    "20": 15,
+    "25": 18,
+    "30": 66
+  },
+  "nucleo": {
+    "espuma": 78,
+    "resortes": 14
+  },
+  "capas": {
+    "memory": 36,
+    "latex": 93
+  },
+  "telas": {
+    "algodon": 120,
+    "premium": 300
+  }
+}
