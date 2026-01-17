@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "backend-colchon-totem",
   "version": "1.0.0",
   "description": "Backend Colchon Totem",
