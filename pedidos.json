@@ -1,0 +1,209 @@
+[
+  {
+    "id": "pedido_1768608360613",
+    "fecha": "2026-01-17T00:06:00.613Z",
+    "producto": {
+      "altura": 20,
+      "nucleo": "espuma",
+      "capa": "memory",
+      "tela": "algodon"
+    },
+    "precio": {
+      "total": 108000,
+      "detalle": [
+        {
+          "label": "Precio base",
+          "valor": 100000
+        },
+        {
+          "label": "Capa Memory Foam",
+          "valor": 8000
+        }
+      ]
+    },
+    "estado": "nuevo"
+  },
+  {
+    "id": "pedido_1768608396320",
+    "fecha": "2026-01-17T00:06:36.320Z",
+    "producto": {
+      "altura": 30,
+      "nucleo": "resortes",
+      "capa": "latex",
+      "tela": "premium"
+    },
+    "precio": {
+      "total": 172000,
+      "detalle": [
+        {
+          "label": "Precio base",
+          "valor": 100000
+        },
+        {
+          "label": "Altura 30 cm",
+          "valor": 20000
+        },
+        {
+          "label": "Núcleo de resortes",
+          "valor": 25000
+        },
+        {
+          "label": "Capa Látex",
+          "valor": 12000
+        },
+        {
+          "label": "Tela Premium",
+          "valor": 15000
+        }
+      ]
+    },
+    "estado": "contactado"
+  },
+  {
+    "id": "pedido_1768669585191",
+    "fecha": "2026-01-17T17:06:25.191Z",
+    "producto": {
+      "altura": 20,
+      "nucleo": "espuma",
+      "capa": "latex",
+      "tela": "premium"
+    },
+    "precio": {
+      "total": 127000,
+      "detalle": [
+        {
+          "label": "Precio base",
+          "valor": 100000
+        },
+        {
+          "label": "Capa Látex",
+          "valor": 12000
+        },
+        {
+          "label": "Tela Premium",
+          "valor": 15000
+        }
+      ]
+    },
+    "estado": "nuevo"
+  },
+  {
+    "id": "pedido_1768671540798",
+    "fecha": "2026-01-17T17:39:00.798Z",
+    "producto": {
+      "cliente": "Mariano",
+      "altura": 20,
+      "nucleo": "espuma",
+      "capas": [
+        "latex"
+      ],
+      "tela": "premium"
+    },
+    "precio": {
+      "total": 127000
+    },
+    "estado": "nuevo"
+  },
+  {
+    "id": "pedido_1768671939689",
+    "fecha": "2026-01-17T17:45:39.689Z",
+    "producto": {
+      "cliente": "Carlos",
+      "altura": 25,
+      "nucleo": "resortes",
+      "capas": [
+        "latex"
+      ],
+      "tela": "premium"
+    },
+    "precio": {
+      "total": 167000
+    },
+    "estado": "nuevo"
+  },
+  {
+    "id": "pedido_1768672821811",
+    "fecha": "2026-01-17T18:00:21.811Z",
+    "producto": {
+      "cliente": "Thiago",
+      "altura": 30,
+      "nucleo": "resortes",
+      "capas": [
+        "latex"
+      ],
+      "tela": "premium"
+    },
+    "precio": {
+      "total": 182000
+    },
+    "estado": "nuevo"
+  },
+  {
+    "id": "pedido_1768673464096",
+    "fecha": "2026-01-17T18:11:04.096Z",
+    "producto": {
+      "cliente": "Magui",
+      "altura": 25,
+      "nucleo": "resortes",
+      "capas": [
+        "latex"
+      ],
+      "tela": "premium"
+    },
+    "precio": {
+      "total": 167000
+    },
+    "estado": "nuevo"
+  },
+  {
+    "id": "pedido_1768677978984",
+    "fecha": "2026-01-17T19:26:18.984Z",
+    "producto": {
+      "cliente": "Mariano",
+      "altura": 30,
+      "nucleo": "espuma",
+      "capas": [
+        "latex"
+      ],
+      "tela": "premium"
+    },
+    "precio": {
+      "total": 157000
+    },
+    "estado": "nuevo"
+  },
+  {
+    "id": "pedido_1768678700958",
+    "fecha": "2026-01-17T19:38:20.958Z",
+    "producto": {
+      "cliente": "mariano",
+      "altura": 20,
+      "nucleo": "espuma",
+      "capas": [
+        "latex"
+      ],
+      "tela": "premium"
+    },
+    "precio": {
+      "total": 127000
+    },
+    "estado": "nuevo"
+  },
+  {
+    "id": "pedido_1768682483865",
+    "fecha": "2026-01-17T20:41:23.865Z",
+    "producto": {
+      "cliente": "Mariano",
+      "altura": 30,
+      "nucleo": "resortes",
+      "capas": [
+        "latex"
+      ],
+      "tela": "premium"
+    },
+    "precio": {
+      "total": 508
+    },
+    "estado": "contactado"
+  }
+]
