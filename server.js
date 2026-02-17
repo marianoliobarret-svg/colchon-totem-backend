@@ -61,6 +61,20 @@ function authMiddleware(req, res, next) {
 /* =========================
    ENDPOINTS
 ========================= */
+// ---- Eliminar ----
+
+app.delete("/pedidos/:id", authMiddleware, (req, res) => {
+  const pedidos = leerJSON(PEDIDOS_FILE) || [];
+  const id = Number(req.params.id);
+
+  const filtrados = pedidos.filter(p => p.id !== id);
+
+  guardarJSON(PEDIDOS_FILE, filtrados);
+
+  res.json({ ok: true });
+});
+
+
 // ---- Login ----
 app.post("/login", (req, res) => {
   const { user, pass } = req.body;
@@ -119,6 +133,17 @@ app.patch("/pedidos/:id", authMiddleware, (req, res) => {
   guardarJSON(PEDIDOS_FILE, actualizado);
   res.json({ ok: true });
 });
+const borrarPedido = async (id) => {
+  if (!confirm("¿Seguro que querés eliminar este pedido?")) return;
+
+  try {
+    await eliminarPedido(id);
+    setPedidos(prev => prev.filter(p => p.id !== id));
+  } catch {
+    alert("Error al eliminar pedido");
+  }
+};
+
 
 /* =========================
    START SERVER
